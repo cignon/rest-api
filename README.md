@@ -38,7 +38,7 @@ openssl rsa -in my_application_private.key -pubout -out my_application_public.pu
 ### 2. Cignon backend configuration
 
 Submit your public key **my_application_public.pub** to the Cignon IT Admin, and in return you will get:
-* **Api base url** e.g. https://foobar.cignon.com/RestServer 
+* **Api base url** e.g. https://foobar.cignon.com/CignonRestServer 
 * **Application Id** e.g. 26a8e742-3564-4503-af18-5445a2c0091e
 * **Tenant Id** e.g. 1d1a71ac-7b18-42ec-b916-279a83854384
 * list of **UserId**s that your application is authorized to use e.g. user1, user2, user3
@@ -69,7 +69,7 @@ The authentication is performed in two steps:
 
 ### getToken
 
-`POST` https://foobar.cignon.com/RestServer/api/v1/auth/getToken
+`POST` https://foobar.cignon.com/CignonRestServer/api/v1/auth/getToken
 
 request:
 ```json
@@ -94,7 +94,7 @@ response:
 
 ### login
 
-`POST` https://foobar.cignon.com/RestServer/api/v1/auth/login
+`POST` https://foobar.cignon.com/CignonRestServer/api/v1/auth/login
 
 request:
 ```json
@@ -120,7 +120,7 @@ response:
 
 ### logout
 
-`GET` https://foobar.cignon.com/RestServer/api/v1/auth/logout
+`GET` https://foobar.cignon.com/CignonRestServer/api/v1/auth/logout
 
 http header:
 ```
@@ -137,7 +137,7 @@ response:
 
 ### Create entity or process
 
-`POST` https://foobar.cignon.com/RestServer/api/v1/entity
+`POST` https://foobar.cignon.com/CignonRestServer/api/v1/entity
 
 http header:
 ```
@@ -180,7 +180,7 @@ response:
 
 ### Update entity or process
 
-`PUT` https://foobar.cignon.com/RestServer/api/v1/entity
+`PUT` https://foobar.cignon.com/CignonRestServer/api/v1/entity
 
 http header:
 ```
@@ -213,3 +213,4 @@ response:
 ```
 * **id** process or entity's id 
 * **versionId** identifier for the entity/process version
+
