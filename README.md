@@ -152,8 +152,8 @@ Authorization: Bearer AgEcAGFCHUt0fdlIiRSw1i8RTUKQI/xMEoOmNdJbjXs=
 request:
 ```json
 {
-   "Name":"user guid",
-   "ContentExtension":"pdf",
+   "Name":"Hello World",
+   "ContentExtension":"txt",
    "ContentLength": 18
 }
 ```
@@ -223,9 +223,7 @@ Authorization: Bearer AgEcAGFCHUt0fdlIiRSw1i8RTUKQI/xMEoOmNdJbjXs=
 request:
 ```json
 {
-   "Name":"user guid",
-   "ContentExtension":"pdf",
-   "ContentLength": 1170000
+   "UploadId":"1153EF2374-C6B659870B-10F30A6AE8-930133ED91"
 }
 ```
 
