@@ -55,10 +55,14 @@ Submit external application public key **my_application_public.pub** to the Cign
 
 [Authentication](Authentication.md)
 
-[Upload](Upload%20File.md)
+[Upload File](Upload%20File.md)
 
 [Create Entity](Create%20Entity.md)
 
 [Upload Entity](Create%20Entity.md)
+
+[Logout](Logout.md)
+
+[Errors](Errors.md)
 
 
