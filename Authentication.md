@@ -22,7 +22,7 @@ Example:
 Request:
 ```json
 {
-   "TenantId":"1d1a71ac-7b18-42ec-b916-279a83854384",
+   "TenantId":"F52901DB-6008-40B3-8B2A-73CED71A1736",
    "ApplicationId":"26a8e742-3564-4503-af18-5445a2c0091e",
    "DeviceId":"486cc674-b07f-4454-ad53-2435589228ef"
 }
@@ -32,7 +32,7 @@ Request:
 
 | Name               | Description                      | Example          |
 | ------------------ | ---------------------------------| -----------------|
-| `TenantId`         | Tenant Globally Unique IDentifier      | 1d1a71ac-7b18-42ec-b916-279a83854384       |
+| `TenantId`         | Tenant Globally Unique IDentifier      | F52901DB-6008-40B3-8B2A-73CED71A1736       |
 | `ApplicationId`    | Application Globally Unique IDentifier   | 26a8e742-3564-4503-af18-5445a2c0091e              |
 | `DeviceId`         | An Globally Unique IDentifier representing the client's is up to the application to provide one  | 486cc674-b07f-4454-ad53-2435589228ef          |
 
@@ -60,7 +60,7 @@ Example:
 Request:
 ```json
 {
-   "TenantId":"1d1a71ac-7b18-42ec-b916-279a83854384",
+   "TenantId":"F52901DB-6008-40B3-8B2A-73CED71A1736",
    "ApplicationId":"26a8e742-3564-4503-af18-5445a2c0091e",
    "Token":"a6BQotqx0Wx8q8uLZq+5nNcc0krDPa7OgBXa+TT6WETSTlI53cPLYl9u1Gnm5vLVQ5.....ZRJirRtvYkfvaOP6nmEizm4kgaW/9McBQQV3G6WlQMuhc1rY/XlIHNXU=",
    "UserId":"user1"

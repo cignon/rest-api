@@ -3,11 +3,11 @@ Error | Description |
 | ----------- | ---------------------------|
 0 | Success |
 1 | UncaughtServerError |
-2 | ParameterNotFound |
-3 | ParameterValueIsNotValid |
-4 | ParameterValueIsNotAnArray |
-5 | ParameterValueIsNotAnObject |
-6 | ParameterValueIsNotAllowed |
+101 | ParameterNotFound |
+102 | ParameterValueIsNotValid |
+103 | ParameterValueIsNotAnArray |
+104 | ParameterValueIsNotAnObject |
+105 | ParameterValueIsNotAllowed |
 1001 | GetTokenApplicationNotFound |
 1002 | GetTokenApplicationNotActive |
 1003 | GetTokenTenantNotFound |

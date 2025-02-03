@@ -1,0 +1,19 @@
+{
+    "Id": "ZzczN2Y7YzI1aDI3MmU6OzU4ODYzNWdoaDplO2QyZWQxx3xx",
+
+    "Fields": [ "Stage", "xBool1", "xDateTime1", "xDec1", "xIntArray1", "xDocuments1" ],
+
+    "Details": [
+        {
+            "Alias": "xDocuments1",
+            "Fields": [ "Id", "xDocument1" ],
+            "Ids": [ "MzY6ZmVkZTM2MzY6ZWcyZDM2YzY0YzY5NWRnZTI6O2gxx3xx" ]
+        },
+
+        {
+            "Alias": "xProcesses",
+            "Fields": [ "Id", "xBool1", "xInt1" ],
+            "Ids": [ "MzY6ZmVkZTM2MzY6ZWcyZDM2YzY0YzY5NWRnZTI6O2gxx3xx" ]
+        }
+    ]
+}

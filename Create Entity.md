@@ -14,25 +14,25 @@ Request:
 ```json
 {
    "Entity":{
-      "EntityTypeId":"F1005057-32B1-4D9D-A543-9A6AC6D36E9C",
-      "OrganizationalUnit":"174BE6FF-4125-4EEC-8A41-6632A218752F",
-      "Category":"29967816-40BF-4329-A930-2696C0A1938B",
-      "Title":"my first process",
-      "xBool1":true,
-      "xDate1":"2021-05-13T00:00:00Z",
-      "xDateTime1":"2021-07-04T01:49:23.8039368Z",
-      "xDec1":123.45,
-      "xIntArray1":[
+      "EntityTypeId": "ei77ZTtnODVmOGVjOGM7NTY3Y2Y7ZjYzZDQ1OTcyNzIyM2gxx3xx",
+      "OrganizationalUnit" : "ei77aDQ3OTozNGM0NTg4MzZjOmVnZzY3NDM2aGg4Z2Q2OTMxx3xx",
+      "Category": "ei77ZDo1OzNjMmU4Ozg0MjU7Yzs0NTZoZDI2ODM6OTg7OzQxx3xx",
+      "Title": "my first process",
+      "xBool1": true,
+      "xDate1": "2021-05-13T00:00:00Z",
+      "xDateTime1": "2021-07-04T01:49:23.8039368Z",
+      "xDec1": "123.45",
+      "xIntArray1" :[
          1,
          3,
          5
       ],
-      "xTextArray1":[
+      "xTextArray1" :[
          "NJ",
          "CA",
          "TX"
       ],
-      "xDocuments1":[
+      "xDocuments1" :[
          {
             "xInt1":123,
             "xText1":"detail entity 1"
@@ -60,23 +60,25 @@ Request:
 Response:
 ```json
 {
-   "Entity":{
-      "Id":"8fb17ba4-cb7e-468d-8e7d-837ef94f76b9",
-      "xDocuments1":[
-         {
-            "Id":"5eff95ba-240f-4a0e-ae76-d1f106e34e87"
-         },
-         {
-            "Id":"87d54ee8-2a88-4393-a6b3-1eb4076c16f0"
-         }
-      ]
-   },
-   "ErrorCode":0
+  "Entity": {
+    "Id": "ZzczN2Y7YzI1aDI3MmU6OzU4ODYzNWdoaDplO2QyZWQxx3xx",
+    "ModifiedTimestamp": "AAAAAAAQ0eQ=",
+    "xDocuments1": [
+      {
+        "Id": "ZTtlMzdlZjJoY2Y0ZDk0OzJoMjY2ZjdjOTtoYztoNjQxx3xx"
+      },
+      {
+        "Id": "OjQzNTloaDo1Yzc0OGU1OmczZzZlNGZnOmQ3NTc6NjQxx3xx"
+      }
+    ]
+  },
+  "ErrorCode": 0
 }
 ```
 
 Returns:
 * **Id** new process or entity's id 
+* **ModifiedTimestamp** new process ModifiedTimestamp
 
 Note:
 

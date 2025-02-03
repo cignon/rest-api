@@ -13,23 +13,23 @@ Authorization: Bearer AgEcAGFCHUt0fdlIiRSw1i8RTUKQI/xMEoOmNdJbjXs=
 Request:
 ```json
 {
-   "Entity":{
-      "EntityTypeId":"F1005057-32B1-4D9D-A543-9A6AC6D36E9C",
-      "Id":"8fb17ba4-cb7e-468d-8e7d-837ef94f76b9",
-      "xDateTime1":"2021-07-09T01:49:25.2636807Z",
-      "xInt1":"1",
-      "xDocuments1":[
-         {
-            "Id":"5eff95ba-240f-4a0e-ae76-d1f106e34e87",
-            "xDocument1":"78f4ef9a-abee-429c-9352-01a56bada878",
-            "xText1":"detail 1 was updated"
-         },
-         {
-            "xInt1":789,
-            "xText1":"detail entity 3"
-         }
-      ]
-   }
+    "EntityTypeId": "ei77ZTtnODVmOGVjOGM7NTY3Y2Y7ZjYzZDQ1OTcyNzIyM2gxx3xx",
+    "Id": "ZzczN2Y7YzI1aDI3MmU6OzU4ODYzNWdoaDplO2QyZWQxx3xx",
+    "ModifiedTimestamp": "AAAAAAAQ0eQ=",
+
+    "xDateTime1": "2025-01-30T06:07:08Z",
+    "xInt1": 2,
+    "xDec1": "719971921971921.43",
+    "xDocuments1": [
+            {
+                "Id" : "MzY6ZmVkZTM2MzY6ZWcyZDM2YzY0YzY5NWRnZTI6O2gxx3xx",
+                "xText1": "updating detail 1 using id"
+            },
+            {
+                "xInt1": 789,
+                "xText1": "add another detail"
+            }
+        ]
 }
 ```
 ### Required Parameters:
@@ -38,37 +38,36 @@ Request:
 | -------------------- | ---------------------------------|
 | `EntityTypeId`       | Process Type or Master Entity Type identifier |
 | `Id` | Entity identifier   |
+| `ModifiedTimestamp` | Entity actual ModifiedTimestamp |
 
 **Important** : Any other required fields (defined on CIGNON Process Type/Master Entity Type configuration) need to be sent. 
 
 Response:
 ```json
 {
-   "Entity":{
-      "Id":"8fb17ba4-cb7e-468d-8e7d-837ef94f76b9",
-      "VersionId":"b8a41230-0625-4bbe-8e77-2e3f1871ec6d",
-      "Version":2,
-      "xDocuments1":[
-         {
-            "Id":"5eff95ba-240f-4a0e-ae76-d1f106e34e87"
-         },
-         {
-            "Id":"87d54ee8-2a88-4393-a6b3-1eb4076c16f0"
-         },
-         {
-            "Id":"a6ce7d35-5743-434c-9fd2-291d71f7e06e"
-         }
-      ]
-   },
-   "ErrorCode":0
+  "Entity": {
+    "Id": "ZzczN2Y7YzI1aDI3MmU6OzU4ODYzNWdoaDplO2QyZWQxx3xx",
+    "Version": 2,
+    "ModifiedTimestamp": "AAAAAAAQ0e8=",
+    "xDocuments1": [
+      {
+        "Id": "ZTtlMzdlZjJoY2Y0ZDk0OzJoMjY2ZjdjOTtoYztoNjQxx3xx"
+      },
+      {
+        "Id": "OjQzNTloaDo1Yzc0OGU1OmczZzZlNGZnOmQ3NTc6NjQxx3xx"
+      },
+      {
+        "Id": "OjY7Zmc1Zzk2Mzc0ZjNnYzg7ZjY5NjRlNWM1Ojk3NDIxx3xx"
+      }
+    ]
+  },
+  "ErrorCode": 0
 }
-
 ```
 Returns:
 * **Id** new process or entity's id 
-* **VersionId** process/entity version identifier
 * **Version** process/entity version (Starts at 1)
 
 Note:
 
-* Ids are returned for each detail entity created. 
+* Ids are returned for each detail entity. 

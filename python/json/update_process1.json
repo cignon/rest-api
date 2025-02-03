@@ -1,0 +1,19 @@
+{
+    "EntityTypeId": "ei77ZTtnODVmOGVjOGM7NTY3Y2Y7ZjYzZDQ1OTcyNzIyM2gxx3xx",
+    "Id": "ZzczN2Y7YzI1aDI3MmU6OzU4ODYzNWdoaDplO2QyZWQxx3xx",
+    "ModifiedTimestamp": "AAAAAAAQ0eU=",
+
+    "xDateTime1": "2025-01-30T06:07:08Z",
+    "xInt1": 2,
+    "xDec1": "719971921971921.43",
+    "xDocuments1": [
+            {
+                "Id" : "ZTtlMzdlZjJoY2Y0ZDk0OzJoMjY2ZjdjOTtoYztoNjQxx3xx",
+                "xText1": "updating detail 1 using id"
+            },
+            {
+                "xInt1": 789,
+                "xText1": "add another detail"
+            }
+        ]
+}

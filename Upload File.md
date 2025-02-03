@@ -136,8 +136,8 @@ Request:
 Response:
 ```json
 {
-   "DocumentId":"78f4ef9a-abee-429c-9352-01a56bada878",
-   "ErrorCode":0
+  "DocumentId": "NWY1NTo2NTk7NjRoNmc0OzU0OjZmZTY3OTg1ODlmNzIxx3xx",
+  "ErrorCode": 0
 }
 ```
 
