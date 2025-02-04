@@ -1,13 +1,22 @@
 # Quick start with python cignon-rest-api
 
-### Create a Python environment 
+### Create Python environment and install required python packages
 ```shell
-conda create 
+mamba create -n cignon_rest_api_tests python=3.10
+mamba activate cignon_rest_api_tests
+pip install cryptography python-dotenv
 ```
 
 ### Clone the cignon rest-api repository
 ```shell
-conda create 
+cd %homepath%\desktop\
+git clone https://github.com/cignon/rest-api.git 
+```
+
+Start python environment and locate python scripts
+```shell
+mamba activate cignon_rest_api_tests
+cd %homepath%\desktop\rest-api\python
 ```
 
 ### Edit the environment variables to reflect your setup
